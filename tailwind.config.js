@@ -67,10 +67,72 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "pulse-ring": {
+          "0%": {
+            transform: "scale(0.33)",
+            opacity: "1",
+          },
+          "80%, 100%": {
+            transform: "scale(2.4)",
+            opacity: "0",
+          },
+        },
+        "scale-pulse": {
+          "0%": {
+            transform: "scale(0.8)",
+            opacity: "0.7",
+          },
+          "25%": {
+            transform: "scale(1.1)",
+            opacity: "0.9",
+          },
+          "50%": {
+            transform: "scale(1.4)",
+            opacity: "1",
+          },
+          "75%": {
+            transform: "scale(1.1)",
+            opacity: "0.9",
+          },
+          "100%": {
+            transform: "scale(0.8)",
+            opacity: "0.7",
+          },
+        },
+        "flow-down": {
+          "0%": {
+            transform: "translateY(-10px)",
+            opacity: "0",
+          },
+          "50%": {
+            opacity: "1",
+          },
+          "100%": {
+            transform: "translateY(10px)",
+            opacity: "0",
+          },
+        },
+        "slideInFromLeft": {
+          '0%': { opacity: '0.5', transform: 'translateX(60px)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
+      },
+      "flow-x": {
+       "0%": {
+          transform: "translateX(0%)",
+        },
+        "100%": {
+          transform: "translateX(100%)",
+        }
       },
       animation: {
+        'slideInFromLeft': 'slideInFromLeft 1s ease-out forwards',
+        "animate-flow-x": "flow-x 10s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "pulse-ring": "pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite",
+        "scale-pulse": "scale-pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "flow-down": "flow-down 3s ease-in-out infinite",
       },
     },
     container: { center: true, padding: "2rem", screens: { "2xl": "1400px" } },

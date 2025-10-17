@@ -45,7 +45,7 @@ export const WhyChooseSection = () => {
           className="text-center mb-12"
         >
           <h2 className="text-gray-900 text-4xl font-bold box-border caret-transparent leading-[54px] mb-4">
-            Why Choose <span className="text-sky-500">CryptoApe</span>
+            Why Choose <span className="text-sky-500">FxCapital</span>
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
             We combine technical excellence with business acumen to deliver solutions that drive real results.

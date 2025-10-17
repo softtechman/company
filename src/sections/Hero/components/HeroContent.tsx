@@ -8,10 +8,10 @@ export const HeroContent = () => {
         <HeroText />
         <HeroCarousel />
       </div>
-      <div className="absolute items-center bottom-[-15%] box-border caret-transparent hidden justify-center w-full left-[20%] md:bottom-[-68%] md:flex md:left-0">
+      <div className="absolute items-center top-[85%] box-border caret-transparent hidden justify-center w-full left-[10%] md:bottom-[-68%] md:flex md:left-0">
         <img
-          alt="banner"
-          src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/26.png"
+          // alt="banner"
+          src="https://i.postimg.cc/c4wqypTV/Fx-Capital-removebg-preview.png"
           className="text-transparent aspect-[auto_1000_/_1000] box-border h-3/5 max-w-full min-h-0 min-w-0 object-cover pointer-events-none w-3/5 md:h-full md:min-h-[auto] md:min-w-[auto] md:w-full"
         />
       </div>

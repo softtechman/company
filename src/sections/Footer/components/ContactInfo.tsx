@@ -8,7 +8,7 @@ export const ContactInfo = () => {
         <div className="items-center box-border caret-transparent gap-x-3 flex gap-y-3">
           <img
             src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/icon-5.svg"
-            alt="Icon"
+            // alt="Icon"
             className="text-sky-500 box-border caret-transparent h-5 w-5"
           />
           <span className="text-gray-600 box-border caret-transparent block">
@@ -23,7 +23,7 @@ export const ContactInfo = () => {
         <div className="items-center box-border caret-transparent gap-x-3 flex gap-y-3">
           <img
             src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/icon-6.svg"
-            alt="Icon"
+            // alt="Icon"
             className="text-sky-500 box-border caret-transparent h-5 w-5"
           />
           <span className="text-gray-600 box-border caret-transparent block">
@@ -38,30 +38,30 @@ export const ContactInfo = () => {
         <div className="items-center box-border caret-transparent gap-x-3 flex gap-y-3">
           <img
             src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/icon-7.svg"
-            alt="Icon"
+            // alt="Icon"
             className="text-sky-500 box-border caret-transparent h-5 w-5"
           />
           <span className="text-gray-600 box-border caret-transparent block">
             <a
-              href="mailto://info@thecryptoape.com"
+              href="mailto://info@theFxCapital.com"
               className="box-border caret-transparent"
             >
-              info@thecryptoape.com
+              info@theFxCapital.com
             </a>
           </span>
         </div>
         <div className="items-center box-border caret-transparent gap-x-3 flex gap-y-3">
           <img
             src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/icon-8.svg"
-            alt="Icon"
+            // alt="Icon"
             className="text-sky-500 box-border caret-transparent h-5 w-5"
           />
           <span className="text-gray-600 box-border caret-transparent block">
             <a
-              href="https://t.me/Thecryptoape"
+              href="https://t.me/TheFxCapital"
               className="box-border caret-transparent"
             >
-              @Thecryptoape
+              @TheFxCapital
             </a>
           </span>
         </div>

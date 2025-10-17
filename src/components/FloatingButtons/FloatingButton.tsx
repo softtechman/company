@@ -16,7 +16,7 @@ export const FloatingButton = (props: FloatingButtonProps) => {
         <div className="items-center box-border caret-transparent flex shrink-0 h-12 justify-center w-12">
           <img
             src={props.iconSrc}
-            alt="Icon"
+            // alt="Icon"
             className="box-border caret-transparent h-6 w-6"
           />
         </div>

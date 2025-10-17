@@ -4,8 +4,8 @@ export const SectionHeader = () => {
       <div className="box-border caret-transparent opacity-0 mb-8 scale-0 md:opacity-100 md:transform-none">
         <div className="relative box-border caret-transparent z-10">
           <img
-            alt="CryptoApe Logo"
-            src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/27.png"
+            // alt="FxCapital Logo"
+            src="https://avatars.slack-edge.com/2025-09-22/9568871882900_b27394260cab84e2a01b_88.png"
             className="text-transparent aspect-[auto_50_/_50] box-border h-20 max-w-full object-contain pointer-events-none w-20"
           />
         </div>
@@ -23,7 +23,7 @@ export const SectionHeader = () => {
       <div className="box-border caret-transparent max-w-4xl opacity-0 translate-y-5 mx-auto scale-[0.8px] md:opacity-100 md:transform-none">
         <div className="text-gray-600 box-border caret-transparent leading-[26px]">
           <p className="box-border caret-transparent leading-8">
-            CryptoApe is a full-service blockchain development company
+            FxCapital is a full-service blockchain development company
             specializing in cryptocurrency exchange scripts, DeFi solutions, NFT
             platforms, Web3 applications, and AI-powered fintech products. With
             a team of experienced developers, blockchain architects, designers,

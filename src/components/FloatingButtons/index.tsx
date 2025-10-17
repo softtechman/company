@@ -10,7 +10,7 @@ export const FloatingButtons = () => {
       />
       <FloatingButton
         variant="top-[-30px]"
-        href="https://telegram.me/Thecryptoape/"
+        href="https://telegram.me/TheFxCapital/"
         iconSrc="https://c.animaapp.com/mgqxinb9LGHf0V/assets/icon-16.svg"
       />
       <FloatingButton
@@ -20,7 +20,7 @@ export const FloatingButtons = () => {
       />
       <FloatingButton
         variant="top-[90px]"
-        href="mailto://info@thecryptoape.com"
+        href="mailto://info@theFxCapital.com"
         iconSrc="https://c.animaapp.com/mgqxinb9LGHf0V/assets/icon-18.svg"
         showLabel={true}
         label="Email Us"

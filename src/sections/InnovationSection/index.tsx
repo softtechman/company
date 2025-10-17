@@ -61,7 +61,9 @@ export const InnovationSection = () => {
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(6, 171, 224, 0.3)" }}
                 className="bg-white rounded-lg p-6 shadow-lg text-center"
               >
-                <img src={item.icon} alt={item.title} className="w-16 h-16 mx-auto mb-4 object-contain" />
+                <img src={item.icon}
+                  // alt={item.title} 
+                  className="w-16 h-16 mx-auto mb-4 object-contain" />
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
                 <p className="text-sm text-gray-600">{item.description}</p>
               </motion.div>

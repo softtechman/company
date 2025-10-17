@@ -70,7 +70,9 @@ export const ProcessSection = () => {
                 {step.number}
               </div>
               <div className="mt-4">
-                <img src={step.icon} alt={step.title} className="w-16 h-16 mb-4 object-contain" />
+                <img src={step.icon}
+                  // alt={step.title} 
+                  className="w-16 h-16 mb-4 object-contain" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{step.title}</h3>
                 <p className="text-gray-600">{step.description}</p>
               </div>

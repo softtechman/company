@@ -6,7 +6,7 @@ export const PartnersSection = () => {
           <div className="box-border caret-transparent mb-8">
             <div className="relative box-border caret-transparent z-10">
               <img
-                alt="CryptoApe Logo"
+                // alt="FxCapital Logo"
                 src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/27.png"
                 className="text-transparent aspect-[auto_50_/_50] box-border h-20 max-w-full object-contain pointer-events-none w-20"
               />
@@ -15,17 +15,17 @@ export const PartnersSection = () => {
           <div className="box-border caret-transparent mb-2">
             <h2 className="text-gray-900 text-[28px] font-bold box-border caret-transparent leading-[42px] mb-4 md:text-4xl md:leading-[54px]">
               <span className="text-[28px] box-border caret-transparent leading-[42px] md:text-4xl md:leading-[54px]">
-                Where We Make an{" "}
+              Why Visionaries {" "}
               </span>
               <span className="text-sky-500 text-[28px] box-border caret-transparent leading-[42px] md:text-4xl md:leading-[54px]">
-                Impact
+              Partners with us
               </span>
             </h2>
           </div>
           <div className="box-border caret-transparent max-w-4xl mx-auto">
             <div className="text-gray-600 box-border caret-transparent leading-[26px]">
               <p className="box-border caret-transparent leading-8">
-                CryptoApe is a full-service blockchain development company
+                FxCapital is a full-service blockchain development company
                 specializing in cryptocurrency exchange scripts, DeFi solutions, NFT
                 platforms, Web3 applications, and AI-powered fintech products. With
                 a team of experienced developers, blockchain architects, designers,

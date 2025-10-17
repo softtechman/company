@@ -6,36 +6,36 @@ const testimonials = [
   {
     name: "John Smith",
     role: "CEO, CryptoTrade",
-    image: "https://www.thecryptoape.com/assets/homepage/reviews-that-highlight-our-true-impact/john_smith.webp",
-    text: "CryptoApe delivered an exceptional cryptocurrency exchange platform. Their expertise and professionalism exceeded our expectations. The team was responsive and delivered on time.",
+    image: "https://www.theFxCapital.com/assets/homepage/reviews-that-highlight-our-true-impact/john_smith.webp",
+    text: "FxCapital delivered an exceptional cryptocurrency exchange platform. Their expertise and professionalism exceeded our expectations. The team was responsive and delivered on time.",
     rating: 5,
   },
   {
     name: "Sarah Johnson",
     role: "Founder, NFT Gallery",
-    image: "https://www.thecryptoape.com/assets/homepage/reviews-that-highlight-our-true-impact/sarah_johnson.webp",
-    text: "The NFT marketplace they built for us is outstanding. The team was responsive and delivered on time. Working with CryptoApe was a game-changer for our business.",
+    image: "https://www.theFxCapital.com/assets/homepage/reviews-that-highlight-our-true-impact/sarah_johnson.webp",
+    text: "The NFT marketplace they built for us is outstanding. The team was responsive and delivered on time. Working with FxCapital was a game-changer for our business.",
     rating: 5,
   },
   {
     name: "Michael Chen",
     role: "CTO, DeFi Solutions",
-    image: "https://www.thecryptoape.com/assets/homepage/reviews-that-highlight-our-true-impact/michael_chen.webp",
-    text: "Working with CryptoApe was a game-changer. Their technical knowledge and support are unmatched. They delivered a robust DeFi platform that exceeded all our requirements.",
+    image: "https://www.theFxCapital.com/assets/homepage/reviews-that-highlight-our-true-impact/michael_chen.webp",
+    text: "Working with FxCapital was a game-changer. Their technical knowledge and support are unmatched. They delivered a robust DeFi platform that exceeded all our requirements.",
     rating: 5,
   },
   {
     name: "Emily Rodriguez",
     role: "Product Manager, BlockChain Inc",
-    image: "https://www.thecryptoape.com/assets/homepage/reviews-that-highlight-our-true-impact/emily_rodriguez.webp",
-    text: "Outstanding service and exceptional results. The CryptoApe team understood our vision and brought it to life with precision and creativity.",
+    image: "https://www.theFxCapital.com/assets/homepage/reviews-that-highlight-our-true-impact/emily_rodriguez.webp",
+    text: "Outstanding service and exceptional results. The FxCapital team understood our vision and brought it to life with precision and creativity.",
     rating: 5,
   },
   {
     name: "David Kim",
     role: "Founder, MetaVerse Pro",
-    image: "https://www.thecryptoape.com/assets/homepage/reviews-that-highlight-our-true-impact/david_kim.webp",
-    text: "The metaverse platform they developed is incredible. CryptoApe's expertise in blockchain and AI integration is truly impressive.",
+    image: "https://www.theFxCapital.com/assets/homepage/reviews-that-highlight-our-true-impact/david_kim.webp",
+    text: "The metaverse platform they developed is incredible. FxCapital's expertise in blockchain and AI integration is truly impressive.",
     rating: 5,
   }
 ];
@@ -81,7 +81,7 @@ export const TestimonialsSection = () => {
           <div className="mb-8">
             <img
               src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/41.png"
-              alt="Reviews Icon"
+              // alt="Reviews Icon"
               className="w-20 h-20 mx-auto object-contain"
             />
           </div>
@@ -104,7 +104,7 @@ export const TestimonialsSection = () => {
                   <div className="flex items-center mb-4">
                     <img
                       src={testimonial.image}
-                      alt={testimonial.name}
+                      // alt={testimonial.name}
                       className="w-16 h-16 rounded-full object-cover mr-4"
                     />
                     <div>

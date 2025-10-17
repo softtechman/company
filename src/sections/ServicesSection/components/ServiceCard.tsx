@@ -17,7 +17,9 @@ export const ServiceCard = (props: ServiceCardProps) => {
       className="bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-all duration-300"
     >
       <div className="mb-4">
-        <img src={props.icon} alt={props.title} className="w-16 h-16 object-contain" />
+        <img src={props.icon}
+          // alt={props.title}
+          className="w-16 h-16 object-contain" />
       </div>
       <h3 className="text-xl font-semibold text-gray-900 mb-3">{props.title}</h3>
       <p className="text-gray-600 leading-relaxed">{props.description}</p>

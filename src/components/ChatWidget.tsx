@@ -11,7 +11,7 @@ export const ChatWidget = () => {
       <div className="relative box-border caret-transparent">
         <div className="box-border caret-transparent">
           <img
-            alt="offer-gif"
+            // alt="offer-gif"
             src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/61.gif"
             className="text-transparent aspect-[auto_300_/_200] box-border max-w-full pointer-events-none w-[300px]"
           />

@@ -14,18 +14,16 @@ export const CTASection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-white text-4xl md:text-5xl font-bold mb-6">
-            Ready to Build Your Blockchain Solution?
-          </h2>
-          <p className="text-white text-lg mb-8 max-w-2xl mx-auto">
-            Let's discuss your project and turn your vision into reality. Our team is ready to help you succeed.
-          </p>
+          <h3 className="text-white text-xl md:text-4xl font-bold mb-10">
+          Your Blockchain Journey Starts With FxCapital
+          </h3>
+
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-white text-cyan-600 font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+            className="bg-white text-cyan-600 font-semibold px-6 py-3 border border-1 border-blue-500 hover:border-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
           >
-            Get Started Today
+            Get a Demo
           </motion.button>
         </motion.div>
       </div>

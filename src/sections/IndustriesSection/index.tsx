@@ -2,42 +2,42 @@ import { motion } from "framer-motion";
 
 const industries = [
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/industries-we-specialize-in/finance_and_banking.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/industries-we-specialize-in/finance_and_banking.webp",
     title: "Finance & Banking",
     description: "Digital banking, payment systems, and financial services"
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/industries-we-specialize-in/healthcare.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/industries-we-specialize-in/healthcare.webp",
     title: "Healthcare",
     description: "Medical records, supply chain, and patient data management"
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/industries-we-specialize-in/real_estate.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/industries-we-specialize-in/real_estate.webp",
     title: "Real Estate",
     description: "Property tokenization and smart contract transactions"
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/industries-we-specialize-in/supply_chain_and_logistics.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/industries-we-specialize-in/supply_chain_and_logistics.webp",
     title: "Supply Chain & Logistics",
     description: "Logistics tracking and inventory management"
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/industries-we-specialize-in/gaming_and_entertainment.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/industries-we-specialize-in/gaming_and_entertainment.webp",
     title: "Gaming & Entertainment",
     description: "NFT games, metaverse, and digital collectibles"
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/industries-we-specialize-in/e_commerce_and_retail.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/industries-we-specialize-in/e_commerce_and_retail.webp",
     title: "E-commerce & Retail",
     description: "Decentralized marketplaces and crypto payments"
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/industries-we-specialize-in/education.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/industries-we-specialize-in/education.webp",
     title: "Education",
     description: "Credential verification and learning platforms"
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/industries-we-specialize-in/government_and_public_sector.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/industries-we-specialize-in/government_and_public_sector.webp",
     title: "Government & Public Sector",
     description: "Digital identity and public records management"
   }

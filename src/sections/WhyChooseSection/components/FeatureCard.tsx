@@ -21,7 +21,9 @@ export const FeatureCard = (props: FeatureCardProps) => {
         transition={{ type: "spring", stiffness: 300 }}
         className="inline-block mb-4"
       >
-        <img src={props.icon} alt={props.title} className="w-20 h-20 object-contain" />
+        <img src={props.icon}
+          // alt={props.title} 
+          className="w-20 h-20 object-contain" />
       </motion.div>
       <h3 className="text-xl font-semibold text-gray-900 mb-3">{props.title}</h3>
       <p className="text-gray-600 leading-relaxed">{props.description}</p>

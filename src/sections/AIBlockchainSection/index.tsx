@@ -2,32 +2,32 @@ import { motion } from "framer-motion";
 
 const benefits = [
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/why-use-ai-in-blockchain-development/enhanced_security.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/why-use-ai-in-blockchain-development/enhanced_security.webp",
     title: "Enhanced Security",
     description: "AI algorithms detect and prevent security threats in real-time, ensuring your blockchain network remains secure against evolving cyber attacks."
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/why-use-ai-in-blockchain-development/smart_contract_optimization.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/why-use-ai-in-blockchain-development/smart_contract_optimization.webp",
     title: "Smart Contract Optimization",
     description: "AI analyzes and optimizes smart contracts for efficiency, reducing gas fees and improving execution speed while maintaining security."
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/why-use-ai-in-blockchain-development/predictive_analytics.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/why-use-ai-in-blockchain-development/predictive_analytics.webp",
     title: "Predictive Analytics",
     description: "Machine learning models forecast market trends and user behavior, enabling data-driven decisions for your blockchain platform."
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/why-use-ai-in-blockchain-development/automated_compliance.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/why-use-ai-in-blockchain-development/automated_compliance.webp",
     title: "Automated Compliance",
     description: "AI ensures regulatory compliance by automatically monitoring transactions and flagging suspicious activities in real-time."
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/why-use-ai-in-blockchain-development/fraud_detection.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/why-use-ai-in-blockchain-development/fraud_detection.webp",
     title: "Fraud Detection",
     description: "Advanced AI algorithms identify fraudulent patterns and anomalies, protecting your platform and users from malicious activities."
   },
   {
-    icon: "https://www.thecryptoape.com/assets/homepage/why-use-ai-in-blockchain-development/personalized_user_experience.webp",
+    icon: "https://www.theFxCapital.com/assets/homepage/why-use-ai-in-blockchain-development/personalized_user_experience.webp",
     title: "Personalized User Experience",
     description: "AI-driven recommendations and interfaces adapt to user preferences, creating engaging and intuitive blockchain applications."
   }
@@ -46,7 +46,7 @@ export const AIBlockchainSection = () => {
           <div className="mb-8">
             <img
               src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/41.png"
-              alt="AI Icon"
+              // alt="AI Icon"
               className="w-20 h-20 mx-auto object-contain"
             />
           </div>

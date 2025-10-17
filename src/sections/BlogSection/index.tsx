@@ -51,7 +51,9 @@ export const BlogSection = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
             >
-              <img src={blog.image} alt={blog.title} className="w-full h-48 object-cover" />
+              <img src={blog.image}
+                // alt={blog.title}
+                className="w-full h-48 object-cover" />
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-cyan-500 text-sm font-semibold">{blog.category}</span>

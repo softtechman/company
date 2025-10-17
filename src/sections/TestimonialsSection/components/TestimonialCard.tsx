@@ -22,7 +22,7 @@ export const TestimonialCard = (props: TestimonialCardProps) => {
       <div className="flex items-center mb-4">
         <img
           src={props.image}
-          alt={props.name}
+          // alt={props.name}
           className="w-16 h-16 rounded-full object-cover mr-4"
         />
         <div>

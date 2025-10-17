@@ -39,7 +39,9 @@ export const TechnologiesSection = () => {
               whileHover={{ scale: 1.1 }}
               className="bg-white rounded-lg p-6 shadow-md flex items-center justify-center hover:shadow-xl transition-all duration-300"
             >
-              <img src={tech.logo} alt={tech.name} className="w-24 h-24 object-contain" />
+              <img src={tech.logo}
+                // alt={tech.name} 
+                className="w-24 h-24 object-contain" />
             </motion.div>
           ))}
         </div>

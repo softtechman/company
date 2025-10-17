@@ -54,7 +54,7 @@ export const ImpactSection = () => {
             >
               <img
                 src="https://c.animaapp.com/mgqxinb9LGHf0V/assets/40.png"
-                alt="Bitcoin Symbol"
+                // alt="Bitcoin Symbol"
                 className="w-32 h-32 md:w-48 md:h-48 object-contain drop-shadow-2xl"
               />
             </motion.div>
@@ -66,8 +66,8 @@ export const ImpactSection = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              src="https://www.thecryptoape.com/assets/homepage/where-we-make-an-impact/where_we_make_an_impact.webp"
-              alt="Global Impact"
+              src="https://www.theFxCapital.com/assets/homepage/where-we-make-an-impact/where_we_make_an_impact.webp"
+              // alt="Global Impact"
               className="w-full rounded-lg shadow-2xl"
             />
           </div>
