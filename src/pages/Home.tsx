@@ -3,8 +3,6 @@ import { Hero } from "@/sections/Hero";
 import { PartnersSection } from "@/sections/PartnersSection";
 import { PortfolioSection } from "@/sections/PortfolioSection";
 import { CTASection } from "@/sections/CTASection";
-import { Footer } from "@/sections/Footer";
-import { FloatingButtons } from "@/components/FloatingButtons";
 import { ChatWidget } from "@/components/ChatWidget";
 import { Impact } from "@/sections/Impact";
 import { InovationSection } from "@/sections/InovationSection";
