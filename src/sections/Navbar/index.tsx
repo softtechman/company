@@ -42,7 +42,7 @@ export const Navbar = () => {
             <img
               // alt="FxCapital Logo"
               src="https://i.postimg.cc/T2sDpfGH/fxcapital-2.png"
-              className="text-transparent aspect-[auto_190_/_45] box-border h-10 max-w-full pointer-events-none w-16"
+              className="text-transparent aspect-[auto_190_/_80] box-border h-10 max-w-full pointer-events-none w-16"
             />
             <h2 className="text-xl text-bold">
               FxCapital

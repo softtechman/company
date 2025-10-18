@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { PortfolioItem } from "@/sections/PortfolioSection/PortfolioItem";
 import treasureIcon from "@/assets/treasure-icon.png";
-import laptopCrypto from "@/assets/laptop-crypto.png";
-import laptopDefi from "@/assets/laptop-defi.png";
-import laptopNft from "@/assets/laptop-nft.png";
-import laptopOtc from "@/assets/laptop-otc.png";
-import laptopMlm from "@/assets/laptop-mlm.png";
-import laptopTokens from "@/assets/laptop-tokens.png";
+import laptopCrypto from "@/assets/portfolio/laptop-crypto .png";
+import laptopDefi from "@/assets/portfolio/laptop-defi.png";
+import laptopNft from "@/assets/portfolio/laptop-nft.png";
+import laptopOtc from "@/assets/portfolio/laptop-otc.png";
+import laptopMlm from "@/assets/portfolio/laptop-mlm.png";
+import laptopTokens from "@/assets/portfolio/laptop-tokens.png";
 
 const portfolioItems = [
   { id: "crypto", title: "Cryptocurrency Exchange", image: laptopCrypto },
@@ -53,11 +53,11 @@ export const PortfolioSection = () => {
 
           {/* Laptop Mockup */}
           <div className="relative">
-            <div className="relative rounded-lg overflow-hidden shadow-2xl transform transition-all duration-500 hover:scale-[1.02]">
+            <div className="relative rounded-lg overflow-hidden">
               <img
                 src={currentImage}
                 alt={portfolioItems.find((item) => item.id === activeItem)?.title}
-                className="w-full h-auto transition-opacity duration-500"
+                className="w-full h-auto"
               />
             </div>
           </div>
