@@ -10,6 +10,8 @@ import { Impact } from "@/sections/Impact";
 import { InovationSection } from "@/sections/InovationSection";
 import { IndustrySection } from "@/sections/IndustrySection";
 import { Contact } from "@/components/Contact";
+import ClientReviews  from "@/sections/ClientReviews";
+import WhyAIBlockchain from "@/sections/WhyAIBlockchain";
 
 export default function Home() {
   return (
@@ -18,12 +20,13 @@ export default function Home() {
       <Hero />
       <PartnersSection />
       <Impact />
-      {/* <Impact1Section /> */}
       <InovationSection />
+      <WhyAIBlockchain />
       <CTASection />
       <IndustrySection />
       <PortfolioSection />
       <ChatWidget />
+      <ClientReviews />
       <Contact />
     </body>
   );

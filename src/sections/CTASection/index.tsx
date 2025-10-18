@@ -2,7 +2,11 @@ import { motion } from "framer-motion";
 
 export const CTASection = () => {
   return (
-    <section className="relative bg-gradient-to-r from-cyan-500 to-blue-600 box-border caret-transparent py-20 overflow-hidden">
+    <section className="relative bg-gradient-to-r from-[#1fc2f7] to-[#5cc7ea] box-border caret-transparent py-20">
+      <div>
+        <img className="absolute w-60 translate-y-[-35%]" src="https://i.postimg.cc/P52fvqhj/image-1.png" />
+        <img className="absolute w-60 translate-y-[-35%] right-0" src="https://i.postimg.cc/t4XCgxKK/image-2.png" />
+      </div>
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -15,7 +19,7 @@ export const CTASection = () => {
           transition={{ duration: 0.6 }}
         >
           <h3 className="text-white text-xl md:text-4xl font-bold mb-10">
-          Your Blockchain Journey Starts With FxCapital
+          Your Blockchain Journey Starts With <span className="text-black">FxCapital</span>
           </h3>
 
           <motion.button

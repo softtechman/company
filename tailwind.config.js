@@ -80,36 +80,28 @@ module.exports = {
         "scale-pulse": {
           "0%": {
             transform: "scale(0.8)",
-            opacity: "0.7",
-          },
-          "25%": {
-            transform: "scale(1.1)",
-            opacity: "0.9",
+            opacity: "1",
           },
           "50%": {
             transform: "scale(1.4)",
-            opacity: "1",
-          },
-          "75%": {
-            transform: "scale(1.1)",
-            opacity: "0.9",
+            opacity: "0.6",
           },
           "100%": {
             transform: "scale(0.8)",
-            opacity: "0.7",
+            opacity: "0.3",
           },
         },
         "flow-down": {
           "0%": {
             transform: "translateY(-10px)",
-            opacity: "0",
+            opacity: "1",
           },
           "50%": {
             opacity: "1",
           },
           "100%": {
             transform: "translateY(10px)",
-            opacity: "0",
+            opacity: "1",
           },
         },
         "slideInFromLeft": {
@@ -125,6 +117,10 @@ module.exports = {
           transform: "translateX(100%)",
         }
       },
+      'flow': {
+        '0%': { transform: 'translateY(20px)', opacity: '0' },
+        '100%': { transform: 'translateY(0)', opacity: '1' },
+      },
       animation: {
         'slideInFromLeft': 'slideInFromLeft 1s ease-out forwards',
         "animate-flow-x": "flow-x 10s linear infinite",
@@ -133,6 +129,7 @@ module.exports = {
         "pulse-ring": "pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite",
         "scale-pulse": "scale-pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "flow-down": "flow-down 3s ease-in-out infinite",
+        'flow': 'flow 0.8s ease-out forwards',
       },
     },
     container: { center: true, padding: "2rem", screens: { "2xl": "1400px" } },

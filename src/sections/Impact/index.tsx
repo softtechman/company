@@ -14,16 +14,6 @@ const topServices: ServiceCard[] = [
     description: "Private blockchain development builds secure, permissioned networks where only authorized participants can access data and manage data efficiently.",
     icon: <img src="https://i.postimg.cc/vm8qygXN/private.png" className="text-primary" />,
   },
-  // {
-  //   title: "",
-  //   description: "",
-  //   icon: <Lock className="w-0 h-0 text-primary" />,
-  // },
-  // {
-  //   title: "",
-  //   description: "",
-  //   icon: <Lock className="w0 h-0 text-primary" />,
-  // },
   {
     title: "Public Blockchain Development",
     description: "Public blockchain development creates open, decentralized networks where anyone can participate with full transparency and security.",
@@ -69,8 +59,7 @@ const bottomServices: ServiceCard[] = [
 
 export const Impact = () => {
   return (
-    <section className="relative py-20 px-4 overflow-hidden bg-[url('https://i.postimg.cc/KY1RVbC7/impact-section.webp')] bg-cover bg-center">
-      {/* Decorative Plus Signs */}
+    <section className="relative py-20 px-4 overflow-hidden bg-[url('https://i.postimg.cc/KY1RVbC7/impact-section.webp')] bg-cover bg-center lg:w-[90%] w-[70%] md:[75%] mx-auto">
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
@@ -79,48 +68,46 @@ export const Impact = () => {
               <img className="w-20 h-20" src="https://i.postimg.cc/yNSwtSNT/bitcoin.png" />
             </div>
           </div>
-          <div className="box-border caret-transparent mb-2">
-            <h2 className="text-gray-900 text-[28px] font-bold box-border caret-transparent leading-[42px] mb-4 md:text-4xl md:leading-[54px]">
-              <span className="text-[28px] box-border caret-transparent leading-[42px] md:text-4xl md:leading-[54px]">
-              Where {" "}
-              </span>
-              <span className="text-sky-500 text-[28px] box-border caret-transparent leading-[42px] md:text-4xl md:leading-[54px]">
-              We Make an Impact
-              </span>
-            </h2>
-          </div>
+          <h2 className="text-gray-900 text-2xl font-bold mb-4 xl:text-4xl">
+            <span>Where </span>
+            <span className="text-sky-500">We Make an Impact</span>
+          </h2>
         </div>
 
         <div className="relative">
-          {/* Top Row - 2 Cards with spacing to show center image */}
-          <div className="flex justify-between mx-auto">
+          {/* Top Row */}
+            <div className="w-96 h-96 mx-auto  lg:scale-[1.5] lg:w-96 lg:h-96 lg:top-16 mb-8 lg:mb-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2">
+              <img src={blockchainCube} alt="Blockchain Technology" className="w-full h-full object-contain" />
+            </div>
+          <div className="flex flex-wrap lg:justify-between justify-center gap-6 mb-16 w-full">
             {topServices.map((service, index) => (
-              // <Card
-              //   key={index}
-              //   className={`group cursor-pointer hover:text-blue-500 relative p-8 bg-white rounded-2xl border-0 shadow-[0_16px_32px_rgba(0,0,0,0.10),_0_2px_8px_rgba(0,0,0,0.06)]
-              //   transition-transform transition-shadow duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] transform-gpu
-              //   hover:-translate-y-1  hover:scale-[1.03] hover:shadow-[0_28px_56px_rgba(0,0,0,0.20),_0_6px_18px_rgba(0,0,0,0.12)]
-              //   ${service.title === "" ? "invisible" : "animate-[fadeInUp_3s_ease-out_forwards]"}`}
-              // >
+                <div
+                  key={index}
+                  className="min-w-[290px] max-w-[290px] lg:min-w-[100px] lg:w-[23%] relative bg-white/95 backdrop-blur-sm rounded-xl shadow-lg ring-1 ring-gray-100 p-6 text-center transition-all duration-500 hover:scale-105 hover:shadow-xl group cursor-pointer flex-shrink-0"
+                >
+                <div className="flex justify-center -mt-16 mb-4">
+                  <div className="w-24 h-24 transition-transform duration-500 group-hover:rotate-[6deg]">
+                    {service.icon}
+                  </div>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 group-hover:text-[#0AA5D8] transition-colors duration-300">
+                  {service.title}
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                  {service.description}
+                </p>
+              </div>
+            ))}
+          </div>
 
-              //   {/* Icon positioned half outside */}
-              //   <div className="absolute -top-[15%] w-24 h-24  left-1/2 -translate-x-1/2 rounded-full flex items-center justify-center">
-              //     <div className="rounded-full  flex items-center justify-center">
-              //       {service.icon}
-              //     </div>
-              //   </div>
+          <div className="flex flex-col lg:flex-row items-center lg:justify-between relative mb-16">
+            {/* Central Image */}
 
-              //   <div className="flex flex-col items-center text-center space-y-3 mt-8">
-              //     <h3 className="text-lg md:text-xl font-semibold text-gray-900 tracking-tight group-hover:text-blue-500">
-              //       {service.title}
-              //     </h3>
-              //     <p className="text-sm md:text-base hover:text-black text-gray-600 leading-relaxed">
-              //       {service.description}
-              //     </p>
-              //   </div>
-              // </Card>
-                <div key={index} className="w-[25%] relative bg-white/95 backdrop-blur-sm rounded-xl shadow-lg ring-1 ring-gray-100 p-6 text-center transition-all duration-500 hover:scale-105 hover:shadow-xl group cursor-pointer">
-                  <div className="flex justify-center mt-[-28%] mb-4">
+            {/* Middle Services */}
+            <div className="flex flex-wrap lg:justify-between justify-center gap-6 w-full">
+              {middleServices.map((service, index) => (
+                <div key={index} className="min-w-[290px] max-w-[290px] lg:min-w-[100px] lg:w-[23%]  relative bg-white/95 backdrop-blur-sm rounded-xl shadow-lg ring-1 ring-gray-100 p-6 text-center transition-all duration-500 hover:scale-105 hover:shadow-xl group cursor-pointer">
+                  <div className="flex justify-center -mt-16 mb-4">
                     <div className="w-24 h-24 transition-transform duration-500 group-hover:rotate-[6deg]">
                       {service.icon}
                     </div>
@@ -131,48 +118,17 @@ export const Impact = () => {
                   <p className="text-sm text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
                     {service.description}
                   </p>
-                  <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#0AA5D8]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
-
-            ))}
-          </div>
-
-          {/* Middle Row - 2 Cards with Central Background Image */}
-          <div className="relative mb-8">
-            {/* Background Blockchain Cube - Large and centered, static */}
-            <div className="absolute left-1/2 -translate-x-1/2 -translate-y-[60%] w-128 h-128 scale-[1.1] pointer-events-none z-0">
-              <img
-                src={blockchainCube}
-                alt="Blockchain Technology"
-                className="w-full h-full object-contain"
-              />
-            </div>
-
-            <div className="flex justify-between mt-16">
-              {middleServices.map((service, index) => (
-                <div key={index} className="w-[25%] relative bg-white/95 backdrop-blur-sm rounded-xl shadow-lg ring-1 ring-gray-100 p-6 text-center transition-all duration-500 hover:scale-105 hover:shadow-xl group cursor-pointer">
-                <div className="flex justify-center mt-[-28%] mb-4">
-                  <div className="w-24 h-24 transition-transform duration-500 group-hover:rotate-[6deg]">
-                    {service.icon}
-                  </div>
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 group-hover:text-[#0AA5D8] transition-colors duration-300">
-                  {service.title}
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                  {service.description}
-                </p>
-                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#0AA5D8]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              </div>
               ))}
             </div>
           </div>
+          {/* Middle Row */}
 
-          {/* Bottom Row - 4 Cards in Same Line */}
-          <div className="flex justify-between gap-6 mt-16">
+          {/* Bottom Row */}
+          <div className="flex flex-wrap lg:justify-between justify-center gap-6">
             {bottomServices.map((service, index) => (
-                <div key={index} className="relative bg-white/95 backdrop-blur-sm rounded-xl shadow-lg ring-1 ring-gray-100 p-6 text-center transition-all duration-500 hover:scale-105 hover:shadow-xl group cursor-pointer">
-                <div className="flex justify-center mt-[-28%] mb-4">
+              <div key={index} className="min-w-[290px] max-w-[290px] lg:min-w-[100px] lg:w-[23%]  relative bg-white/95 backdrop-blur-sm rounded-xl shadow-lg ring-1 ring-gray-100 p-6 text-center transition-all duration-500 hover:scale-105 hover:shadow-xl group cursor-pointer">
+                <div className="flex justify-center -mt-16 mb-4">
                   <div className="w-24 h-24 transition-transform duration-500 group-hover:rotate-[6deg]">
                     {service.icon}
                   </div>
@@ -183,14 +139,11 @@ export const Impact = () => {
                 <p className="text-sm text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
                   {service.description}
                 </p>
-                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#0AA5D8]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
             ))}
           </div>
         </div>
       </div>
-
     </section>
   );
 };
-

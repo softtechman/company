@@ -37,7 +37,7 @@ export const Navbar = () => {
           <a href="/" className="flex items-center space-x-2">
           <img
         // alt="FxCapital Logo"
-        src="https://avatars.slack-edge.com/2025-09-22/9568871882900_b27394260cab84e2a01b_88.png"
+        src="https://i.postimg.cc/T2sDpfGH/fxcapital-2.png"
         className="text-transparent aspect-[auto_190_/_45] box-border h-10 max-w-full pointer-events-none w-16"
       />
       <h2 className="text-xl text-bold">

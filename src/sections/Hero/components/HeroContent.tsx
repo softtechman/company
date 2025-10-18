@@ -8,7 +8,7 @@ export const HeroContent = () => {
         <HeroText />
         <HeroCarousel />
       </div>
-      <div className="absolute items-center top-[85%] box-border caret-transparent hidden justify-center w-full left-[10%] md:bottom-[-68%] md:flex md:left-0">
+      <div className="absolute items-center top-[90%] box-border caret-transparent hidden justify-center w-full left-[10%] md:bottom-[-68%] md:flex md:left-0">
         <img
           // alt="banner"
           src="https://i.postimg.cc/c4wqypTV/Fx-Capital-removebg-preview.png"
