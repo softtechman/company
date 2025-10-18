@@ -36,7 +36,7 @@ export const Navbar = () => {
     >
       <div className={`max-w-[1300px] mx-auto p-4 ${isOpen?'':'flex'}  justify-between items-center`}>
         {/* Logo */}
-        <div className="relative flex justify-between items-center w-full">
+        <div className="relative flex justify-between items-center w-full lg:w-20">
           <div className='flex items-center space-x-4'>
             <a href="/" className="flex items-center space-x-2">
             <img

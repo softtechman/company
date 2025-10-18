@@ -7,14 +7,14 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   publicDir: "./static",
-  base: "./",
+  base: "/", // ✅ change this
   css: {
     postcss: {
       plugins: [tailwind()],
     },
   },
   server: {
-    host:'127.0.0.1',
+    host: "127.0.0.1",
     port: 5173,
     open: true,
   },
@@ -24,5 +24,6 @@ export default defineConfig({
     },
   },
 });
+
 
 
