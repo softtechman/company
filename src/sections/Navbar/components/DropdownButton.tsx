@@ -16,7 +16,7 @@ export type DropdownButtonProps = {
           />
         </button>
         {props.dropdownContent && (
-          <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+          <div className="absolute mt-2 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
             {props.dropdownContent}
           </div>
         )}

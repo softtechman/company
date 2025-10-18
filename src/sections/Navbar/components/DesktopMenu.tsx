@@ -4,19 +4,15 @@ import { CloneScriptDropdown } from "@/sections/Navbar/components/CloneScriptDro
 
 export const DesktopMenu = () => {
   const launchPadItems = [
-    { label: "ICO Development", href: "/ico-development" },
-    { label: "IDO Development", href: "/ido-development" },
-    { label: "IEO Development", href: "/ieo-development" },
-    { label: "STO Development", href: "/sto-development" },
-    { label: "INO Development", href: "/ino-development" },
+    { label: "ICO Development", href: "/ico-dev" },
+    { label: "STO Development", href: "/sto-dev" },
+    { label: "IDO Development", href: "/ido-dev" },
   ];
 
   const tokenizationItems = [
     { label: "Ethereum Token Development", href: "/eth-token-dev" },
     { label: "BEP20 Token Development", href: "/bep20-token-dev" },
-    { label: "Real Estate Tokenization", href: "/real-estate-tokenization" },
-    { label: "Security Token", href: "/security-token" },
-    { label: "Utility Token", href: "/utility-token" },
+    { label: "Tron Token Development", href: "/tron-token-dev" },
   ];
 
   const companyItems = [
@@ -25,7 +21,7 @@ export const DesktopMenu = () => {
   ];
 
   return (
-    <div className="text-gray-700 text-lg font-medium items-center box-border caret-transparent hidden leading-7 min-h-0 min-w-0 md:flex md:min-h-[auto] md:min-w-[auto]">
+    <div className="text-gray-700 text-lg font-medium items-center box-border caret-transparent hidden leading-7 min-h-0 min-w-0 lg:flex md:min-h-[auto] md:min-w-[auto]">
       <div className="relative box-border caret-transparent min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
         <DropdownButton
           label="Services"

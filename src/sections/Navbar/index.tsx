@@ -36,24 +36,26 @@ export const Navbar = () => {
     >
       <div className={`max-w-[1300px] mx-auto p-4 ${isOpen?'':'flex'}  justify-between items-center`}>
         {/* Logo */}
-        <div className="flex items-center space-x-4 hidden lg:block">
-          <a href="/" className="flex items-center space-x-2">
-          <img
-        // alt="FxCapital Logo"
-        src="https://i.postimg.cc/T2sDpfGH/fxcapital-2.png"
-        className="text-transparent aspect-[auto_190_/_45] box-border h-10 max-w-full pointer-events-none w-16"
-      />
-      <h2 className="text-xl text-bold">
-        FxCapital
-      </h2>
-          </a>
+        <div className="relative flex justify-between items-center w-full">
+          <div className='flex items-center space-x-4'>
+            <a href="/" className="flex items-center space-x-2">
+            <img
+              // alt="FxCapital Logo"
+              src="https://i.postimg.cc/T2sDpfGH/fxcapital-2.png"
+              className="text-transparent aspect-[auto_190_/_45] box-border h-10 max-w-full pointer-events-none w-16"
+            />
+            <h2 className="text-xl text-bold">
+              FxCapital
+            </h2>
+            </a>
+          </div>
+          <MobileMenuButton isOpen={isOpen} onClick={toggleMenu} />
         </div>
 
-        {/* Mobile Menu Button */}
-        <MobileMenuButton isOpen={isOpen} onClick={toggleMenu} />
-        {isOpen && <MobileMenu />}
         {/* Desktop Menu */}
         <DesktopMenu />
+        {/* Mobile Menu Button */}
+        {isOpen && <MobileMenu />}
 
         {/* CTA Button / User Menu */}
         <div className="hidden xl:block">
