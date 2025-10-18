@@ -23,7 +23,7 @@ export const PortfolioSection = () => {
   const currentImage = portfolioItems.find((item) => item.id === activeItem)?.image;
 
   return (
-    <section className="min-h-screen bg-background py-16 px-4">
+    <section className="bg-background mb-16 px-4">
       <div className="container mx-auto max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16">

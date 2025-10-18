@@ -1,6 +1,15 @@
-import { Card } from "@/components/ui/card";
-import blockchainCube from "@/assets/blockchain-cube.png";
-import { Lock, Globe, MessageSquare, Building2, Coins, Wallet, Blocks, Sparkles } from "lucide-react";
+//import images
+import aiImg from "@/assets/impact/ai.png";
+import consultingImg from "@/assets/impact/consulting.png";
+import customizeImg from "@/assets/impact/customize.png";
+import defiImg from "@/assets/impact/defi.png";
+import enterpriseImg from "@/assets/impact/enterprise.png";
+import nftImg from "@/assets/impact/nft.png";
+import privateImg from "@/assets/impact/private.png";
+import publicImg from "@/assets/impact/public.png";
+//bitcoin logo
+import bitcoinImg from "@/assets/impact/bitcoin.png";
+import blockchainCube from "@/assets/impact/blockchain-cube.png";
 
 interface ServiceCard {
   title: string;
@@ -12,12 +21,14 @@ const topServices: ServiceCard[] = [
   {
     title: "Private Blockchain Development",
     description: "Private blockchain development builds secure, permissioned networks where only authorized participants can access data and manage data efficiently.",
-    icon: <img src="https://i.postimg.cc/vm8qygXN/private.png" className="text-primary" />,
+    // icon: <img src="https://i.postimg.cc/vm8qygXN/private.png" className="text-primary" />,
+    icon: <img src={privateImg} className="text-primary" />,
   },
   {
     title: "Public Blockchain Development",
     description: "Public blockchain development creates open, decentralized networks where anyone can participate with full transparency and security.",
-    icon: <img src="https://i.postimg.cc/cJ19WgTj/public.png" className="text-primary" />,
+    // icon: <img src="https://i.postimg.cc/cJ19WgTj/public.png" className="text-primary" />,
+    icon: <img src={publicImg} className="text-primary" />,
   },
 ];
 
@@ -25,12 +36,14 @@ const middleServices: ServiceCard[] = [
   {
     title: "Blockchain Consulting",
     description: "Blockchain consulting guides businesses in the strategy, design, and implementation of secure blockchain solutions to drive growth and innovation.",
-    icon: <img src="https://i.postimg.cc/rpynT0g9/consulting.png" className="text-primary" />,
+    // icon: <img src="https://i.postimg.cc/rpynT0g9/consulting.png" className="text-primary" />,
+    icon: <img src={consultingImg} className="text-primary" />,
   },
   {
     title: "Enterprise Blockchain Development",
     description: "Enterprise blockchain development builds secure, scalable, and permissioned blockchain solutions tailored to streamline business operations and drive efficiency.",
-    icon: <img src="https://i.postimg.cc/KYcqbkQ9/enterprise.png" className="text-primary" />,
+    // icon: <img src="https://i.postimg.cc/KYcqbkQ9/enterprise.png" className="text-primary" />,
+    icon: <img src={enterpriseImg} className="text-primary" />,
   },
 ];
 
@@ -38,22 +51,26 @@ const bottomServices: ServiceCard[] = [
   {
     title: "DeFi & Web3 Applications",
     description: "DeFi & Web3 application development empowers businesses with decentralized, transparent, and user-driven solutions for the future of digital finance and the web.",
-    icon: <img src="https://i.postimg.cc/1zRCSnMM/defi.png" className="text-primary" />,
+    // icon: <img src="https://i.postimg.cc/1zRCSnMM/defi.png" className="text-primary" />,
+    icon: <img src={defiImg} className="text-primary" />,
   },
   {
     title: "NFT & Token Development",
     description: "NFT & Token Development services help create unique digital assets and crypto tokens with secure, scalable, and customizable blockchain solutions.",
-    icon: <img src="https://i.postimg.cc/W4pWVFSY/nft.png" className="text-primary" />,
+    // icon: <img src="https://i.postimg.cc/W4pWVFSY/nft.png" className="text-primary" />,
+    icon: <img src={nftImg} className="text-primary" />,
   },
   {
     title: "Customized Blockchain Development",
     description: "Customized blockchain development delivers tailored, secure, and scalable solutions built to match your unique business needs, goals, and industry demands.",
-    icon: <img src="https://i.postimg.cc/tgRSbZD5/customize.png" className="text-primary" />,
+    // icon: <img src="https://i.postimg.cc/tgRSbZD5/customize.png" className="text-primary" />,
+    icon: <img src={customizeImg} className="text-primary" />,
   },
   {
     title: "AI-Powered Blockchain Development",
     description: "AI-powered blockchain development combines artificial intelligence with blockchain to deliver smarter, secure, automated, and future-ready business solutions.",
-    icon: <img src="https://i.postimg.cc/25jcYbTZ/ai.png" className="text-primary" />,
+    // icon: <img src="https://i.postimg.cc/25jcYbTZ/ai.png" className="text-primary" />,
+    icon: <img src={aiImg} className="text-primary" />,
   },
 ];
 
@@ -65,7 +82,8 @@ export const Impact = () => {
         <div className="text-center mb-16">
           <div className="flex justify-center mb-4">
             <div className="rounded-full flex items-center justify-center mt-[-4%] mb-2">
-              <img className="w-20 h-20" src="https://i.postimg.cc/yNSwtSNT/bitcoin.png" />
+              {/* <img className="w-20 h-20" src="https://i.postimg.cc/yNSwtSNT/bitcoin.png" /> */}
+              <img className="w-20 h-20" src={bitcoinImg} />
             </div>
           </div>
           <h2 className="text-gray-900 text-2xl font-bold mb-4 xl:text-4xl">

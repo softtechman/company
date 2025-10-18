@@ -1,5 +1,13 @@
 import { useState, useEffect } from "react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+//images
+import automateImg from "@/assets/whyaiblockchain/automate.png";
+import improveImg from "@/assets/whyaiblockchain/improve.png";
+import lowcostsImg from "@/assets/whyaiblockchain/lowcosts.png";
+import personalizeImg from "@/assets/whyaiblockchain/personalize.png";
+import predictImg from "@/assets/whyaiblockchain/predict.png";
+import aiblockchain from "@/assets/whyaiblockchain/aiblockchain.png";
+
 
 const WhyAIBlockchain = () => {
   const { elementRef, getScrollTransform } = useScrollAnimation();
@@ -15,10 +23,10 @@ const WhyAIBlockchain = () => {
   const hideBackground = windowWidth < 650;
 
   const benefits = [
-    { title: "Low Operational Costs", image: "https://i.postimg.cc/L8JX9n81/1.png", position: "left" },
-    { title: "Personalize user experience", image: "https://i.postimg.cc/CxR1hzxD/2.png", position: "left" },
-    { title: "Automate decision-making", image: "https://i.postimg.cc/bwZJyswk/3.png", position: "right" },
-    { title: "Improve security & compliance", image: "https://i.postimg.cc/cLvHxrL3/4.png", position: "right" },
+    { title: "Low Operational Costs", image: lowcostsImg, position: "left" },
+    { title: "Personalize user experience", image: personalizeImg, position: "left" },
+    { title: "Automate decision-making", image: automateImg, position: "right" },
+    { title: "Improve security & compliance", image: improveImg, position: "right" },
   ];
 
   return (
@@ -26,13 +34,13 @@ const WhyAIBlockchain = () => {
       {/* Background image */}
       {!hideBackground && (
         <div
-  className="
-    absolute inset-0 pointer-events-none
-    opacity-100 transition-opacity duration-500
-    bg-[url('https://i.postimg.cc/13b5jJBH/ai-blockchain-section.webp')]
-    bg-no-repeat bg-bottom xl:bg-[length:1300px_auto] lg:bg-[length:1000px_auto]  bg-[length:800px_auto]  translate-y-[-32%] xl:translate-y-0 lg:translate-y-[-10%]
-  "
-/>
+          className="
+            absolute inset-0 pointer-events-none
+            opacity-100 transition-opacity duration-500
+            bg-[url('https://i.postimg.cc/13b5jJBH/ai-blockchain-section.webp')]
+            bg-no-repeat bg-bottom xl:bg-[length:1300px_auto] lg:bg-[length:1000px_auto]  bg-[length:800px_auto]  translate-y-[-32%] xl:translate-y-0 lg:translate-y-[-10%]
+          "
+        />
 
       )}
 
@@ -69,7 +77,7 @@ const WhyAIBlockchain = () => {
             {/* Center image */}
             <div className="col-span-6 flex flex-col items-center justify-center">
               <img
-                src="https://i.postimg.cc/02Wj1pPN/0.png"
+                src={predictImg}
                 alt="Predict risk before they happen"
                 className="w-32 h-32 lg:h-40 lg:w-40 xl:w-60 xl:h-60 object-cover rounded-2xl transform transition-transform hover:-translate-y-3 hover:scale-110 duration-500"
               />
@@ -105,7 +113,7 @@ const WhyAIBlockchain = () => {
             {/* Center image (centered in row 3) */}
             <div className="flex flex-col items-center justify-center">
               <img
-                src="https://i.postimg.cc/02Wj1pPN/0.png"
+                src={predictImg}
                 alt="Predict risk before they happen"
                 className="w-24 h-24 md:h-32 md:w-32 lg:w-32 lg:h-32 object-cover rounded-2xl transform transition-transform hover:-translate-y-3 hover:scale-110 duration-500"
               />

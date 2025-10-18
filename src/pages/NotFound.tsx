@@ -9,9 +9,9 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <p className="mb-4 text-xl text-gray-600">This page will be released soon!</p>
+    <div className="flex min-h-[750px] items-center justify-center bg-gray-100">
+      <div className="text-center flex-row justify-center">
+        <p className="text-xl text-gray-600">This page will be released soon!</p>
         <a href="/" className="text-blue-500 underline hover:text-blue-700">
           Return to Home
         </a>

@@ -77,7 +77,7 @@ export default function FlowingReviews({
             <img
               src={review.logo}
               alt={review.name}
-              className="absolute object-contain left-1/2 -translate-x-1/2 top-[-10%] w-20 h-20 mx-auto"
+              className="absolute object-contain left-1/2 -translate-x-1/2 top-[-10%] w-20 h-20 mx-auto border border-4 border-white rounded-full"
             />
             <h3 className="font-bold text-lg mb-2 text-center mt-10 group-hover:text-blue-500">
               {review.name}
